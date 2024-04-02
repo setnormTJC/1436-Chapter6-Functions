@@ -7,9 +7,11 @@ void printTheTwoArgs(int x, string y) //not like pirates
     cout << "x is : " << x << " and y is: " << y << endl;
 }
 
-void doSomething()
+string doSomething()
 {
-    cout << "Doing something!" << endl; 
+    //cout << "Doing something!" << endl; 
+
+    return "doing something";
 }
 
 //void bar() //stack overflow 
@@ -21,11 +23,15 @@ void doSomething()
 
 int main()
 {
+    //inside of the main function 
     //printHelloWorld(); 
     
     printTheTwoArgs(23, "aslodlkduyd");
     
-    doSomething(); 
+    //cout << doSomething() << endl; 
+    //int result = doSomething(); 
+
+    //cout << result << endl; 
 
     return 0;
 }
